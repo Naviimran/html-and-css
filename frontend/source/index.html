@@ -9,7 +9,14 @@
             h3{
                 color:red;
             }
+            #more-details{
+                color:green;
+            }
+            .greencolor{
+                color:green;
+            }
         </style>
+        <link rel="stylesheet" type="text/css" href="./styles/index.css"
     </head>
     <body>
         <h1 style="width:100%; background-color:green;">
@@ -19,20 +26,20 @@
               alt="Guvi logo"
             />
         </h1>
-        <p>GUVI is an IIT-M & IIM-A incubated ED-tech
+        <p><span style="color:black">GUVI</span> is an IIT-M & IIM-A incubated <strong>ED-tech</strong>
             company that focuses on providing personsalized learning
             solution for its learners right from online learning, ...
         </p>
-      <p> for more details about GUVI,please visit our website
+      <p id="more-details">For more details about GUVI,please visit our website
          <a
           href="https://www.google.com/search?q=http%3A%2F%2Fwww.guvi.in&sca_esv=047f670930a35b4a&sxsrf=ACQVn0_wIygVPxdgAoC5wY5LH_GGVoFFOw%3A1708253147225&ei=29_RZbOqDfnKseMPspCHgAk&ved=0ahUKEwjzg5vw2rSEAxV5ZWwGHTLIAZAQ4dUDCBA&uact=5&oq=http%3A%2F%2Fwww.guvi.in&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmh0dHA6Ly93d3cuZ3V2aS5pbjIHECMYsAIYJzIHECMYsAIYJzIHECMYsAIYJzIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUjzrQFQlxFYkZQBcAN4AZABAJgBrQ6gActDqgESMC4xLjEwLjIuMC4xLjEuMC4yuAEDyAEA-AEBqAIUwgIKEAAYRxjWBBiwA8ICBxAjGOoCGCfCAgcQLhjqAhgnwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAcICGBAAGAMYjwEY5QIY6gIYtAIYChiMA9gBAcICBBAjGCfCAgoQIxiABBiKBRgnwgIREAAYgAQYigUYkQIYsQMYgwHCAggQABiABBixA8ICERAuGIMBGMcBGLEDGNEDGIAEwgIIEC4YgAQYsQPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGJECGLEDwgINEAAYgAQYigUYQxixA8ICBBAAGAPCAgoQABiABBiKBRhDwgIFEAAYgATCAgsQLhiABBjHARjRA8ICCxAAGIAEGIoFGJECwgIOEAAYgAQYigUYsQMYgwHCAgcQABiABBgKwgIGEAAYHhgNiAYBkAYIugYGCAEQARgL&sclient=gws-wiz-serp"
          target="_blank"
          >
-         here
+         <em>here</em>
          </a>
         </p>
         <h3>List of Courses:</h3>
-        <ul type="square">
+        <ul type="square" class="greencolor">
             <li>MERN FSD</li>
             <ul>
              <li>frontend</li>
@@ -44,7 +51,7 @@
             <li>machine learning</li>
         </ul>
         <h3>Features</h3>
-        <ol>
+        <ol type= "1" class="greencolor">
             <li>codeketa</li>
             <ol type="a">
                 <li>HTML</li>

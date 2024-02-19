@@ -1,0 +1,106 @@
+/*element selector*/
+h2{
+    color:cadetblue;
+}
+/*universal selector*/ 
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*ID selector*/
+#description{
+    color:blue;
+}
+/* class selector*/
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style:italic;
+}
+/*attribute selector*/
+a[href="https://www.healthline.com/nutrition/coffee-good-or-bad"]{
+    text-decoration:none;
+    color:red
+}
+/*decendant selector
+ul li{
+    color:green;
+}*/
+/*---another type */
+/*decendant selector*/
+
+/*
+.container li {
+    color:green;
+}*/
+/*---------------------*/
+/* 
+c.benefitslist li{
+    color:green;
+}/*---another thype */
+
+/* child selector*/
+.benefitslist > li{
+    color:green;
+}
+/*adjacent sibling selector*/
+.benefitslist +p{
+    color:grey;
+}
+/*group selector*/
+h2,#footer,#description {
+    font-weight: bold;
+}
+/*psudo-element*/
+#description::first-letter{
+    text-transform:uppercase;
+    color:darkgreen;
+    font-size:35px;
+}
+.nutrientsTable{
+    border:1px solid black;
+}
+.nutrientsTable,th,td{
+    border:1px solid black;
+}
+.nutrientsTable{
+    border-collapse:collapse;
+}
+.nutrientsTable tr:first-child{
+    background-color:darkgrey
+}
+.nutrientsTable tr:last-child{
+    background-color:darkcyan;
+
+}
+.nutrientsTable tr:nth-child(odd){
+    background-color:lightgrey;
+    
+}
+#image-src:link{
+color:red;
+}
+#image-src:visited{
+color:green;
+ }
+ #image-src:hover{
+color:yellow;
+ }
+ #image-src:active{
+color:pink;
+ }          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
