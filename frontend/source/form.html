@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <p><a href="./index.html"> < Bact to home</a></p>
+    <p>Please fill the below form.
+        Someone from our team will get in touch with you
+        shortly
+    </p>
+    <form method="post">
+        <div><label for="firstName">Name:</label>
+            <input 
+             type="text"
+             placeholder="First Name..." 
+             id="firstName" name="firstName"/>
+           <input
+             type="text"
+             placeholder="Last Name..."
+             name="lastName"
+            />
+        </div>
+        <br/>
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email"/>
+        </div>
+        <br/>
+        <div>
+            <label>
+                Password:
+                <input 
+                type="password"
+                name="password"
+                minlength="8"
+                required 
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])"/>
+            </label>
+        </div>
+        <br/>
+        <label>
+            Gender:
+             <input type="radio" name="gender" value="m"/>
+             Male
+            
+        </label>
+        <input type="radio" name="gender" value="f"/>
+        Female
+            
+        </label>
+
+        <br/>
+        <label>
+            Hobbies:
+        </label>
+        <label>
+            <input
+            type="checkbox" name="hobbies" value="reading"/>
+            Reading
+        </label>
+        <label>
+            <input
+            type="checkbox" name="hobbies" value="writing"/>
+            Writing
+        </label>
+        <label>
+            <input
+            type="checkbox" name="hobbies" value="coding"/>
+            Coding
+        </label>
+        <br/>
+        <input 
+        type="submit"
+        />
+        <input 
+        type="reset"/>
+
+
+    </form>
+</body>
+</html>
